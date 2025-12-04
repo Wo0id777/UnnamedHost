@@ -1,7 +1,7 @@
-if (getgenv().UC_LOADED) then
+if (getgenv().UI_LOADED) then
 	return;
 end;
-getgenv().UC_LOADED = true;
+getgenv().UI_LOADED = true;
 
 if (identifyexecutor() == "Wave") then
 	getgenv().gethui = function()
