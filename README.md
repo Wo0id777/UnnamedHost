@@ -1,2 +1,0 @@
-# UnnamedHost
-Needed for functionality
