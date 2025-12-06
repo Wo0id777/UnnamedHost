@@ -3,13 +3,13 @@ if (getgenv().UI_LOADED) then
 end;
 getgenv().UI_LOADED = true;
 
-if (identifyexecutor() == "Wave") then
+if (identifyexecutor() == "___") then
 	getgenv().gethui = function()
 		return game:GetService("CoreGui");
 	end;	
 end;
 
-if (game.GameId == 76558904092080) then
+if (game.GameId == ___ ) then
 	loadstring(game:HttpGet("___"))();
 elseif (game.GameId == 0) then
 	loadstring(game:HttpGet("___"))();
